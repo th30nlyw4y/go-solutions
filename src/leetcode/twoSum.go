@@ -18,7 +18,7 @@ func TwoSumv1(nums []int, target int) []int {
 	return ans
 }
 
-// v2
+// v2: leetcode solution
 func TwoSumv2(nums []int, target int) []int {
 	var ans []int
 	nset := map[int]int{}
