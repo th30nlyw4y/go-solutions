@@ -1,3 +1,3 @@
-module th30nlyw4y/misc
+module th30nlyw4y
 
 go 1.17
