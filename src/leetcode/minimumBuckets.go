@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/
 package leetcode
 
 func MinimumBuckets(street string) int {
