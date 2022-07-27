@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/search-a-2d-matrix/
 package leetcode
 
-func binarySearch(n *[]int, t int) bool {
+func binarySearchBool(n *[]int, t int) bool {
 	l, r := 0, len(*n)
 	for l < r {
 		m := (l + r) / 2
@@ -25,5 +25,5 @@ func SearchMatrix(matrix [][]int, target int) bool {
 			break
 		}
 	}
-	return binarySearch(&line, target)
+	return binarySearchBool(&line, target)
 }
