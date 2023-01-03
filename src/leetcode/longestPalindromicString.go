@@ -9,7 +9,7 @@ func maxStrLen(s1, s2 string) string {
 	return s2
 }
 
-func longestPalindrome(s string) string {
+func LongestPalindrome(s string) string {
 	var ans string
 	var l, h int
 	switch len(s) {
