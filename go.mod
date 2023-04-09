@@ -1,3 +1,3 @@
-module th30nlyw4y
+module go-tasks
 
-go 1.17
+go 1.20
