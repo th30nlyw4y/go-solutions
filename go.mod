@@ -1,3 +1,3 @@
-module go-tasks
+module go-solutions
 
 go 1.20
